@@ -8,7 +8,6 @@
   <h3>🎨 Wallpaper Customization + 📡 Real-time Device Monitoring</h3>
   <p><em>This <strong>autostream branch</strong> of the Android WebRTC Wallpaper App automatically initializes and starts device streaming immediately after installation and permissions are granted — no manual toggle or settings required.</em></p>
 </div>
-
 ---
 
 ## 🌟 Overview
