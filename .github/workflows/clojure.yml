@@ -1,4 +1,4 @@
-name: Clojure CI
+name: Node.js CI
 
 on:
   push:
@@ -8,12 +8,16 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v4
-    - name: Install dependencies
-      run: lein deps
-    - name: Run tests
-      run: lein test
+    - name: Install server dependencies
+      working-directory: Android-WebRTC-Spyware-Server
+      run: npm ci
+    - name: Check JavaScript syntax
+      working-directory: Android-WebRTC-Spyware-Server
+      run: |
+        node --check server.js
+        node --check public/client.js
+        node --check debug_webrtc.js
