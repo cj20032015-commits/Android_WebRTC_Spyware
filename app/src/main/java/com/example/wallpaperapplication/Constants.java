@@ -19,7 +19,9 @@ public class Constants {
     public static final String EXTRA_NOTIFICATION_KEY = "notificationKey";
 
     // ── Signaling ─────────────────────────────────────────────────
-    public static final String DEFAULT_SIGNALING_URL = "http://10.177.87.133:3000";
+    // Update this to your actual signaling server address before production use.
+    // Examples: "http://192.168.1.20:3000" or "https://your-domain.example:3000"
+    public static final String DEFAULT_SIGNALING_URL = "http://YOUR_SERVER_IP:3000";
 
     // ── Video Quality (Camera Streaming) ──────────────────────────
     public static final int VIDEO_WIDTH  = 640;
