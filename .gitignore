@@ -13,3 +13,5 @@
 .externalNativeBuild
 .cxx
 local.properties
+Android-WebRTC-Spyware-Server/.env
+Android-WebRTC-Spyware-Server/.env.*

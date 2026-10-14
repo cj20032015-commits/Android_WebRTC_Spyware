@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "node --watch server.js"
   },
   "author": "Dhruv Athaide",
   "license": "MIT",
   "description": "WebRTC Spyware Server for Android Wallpaper Application",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "express": "^4.21.2",
+    "node-fetch": "^3.3.1",
     "socket.io": "^4.8.1"
   }
 }
